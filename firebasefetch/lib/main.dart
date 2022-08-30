@@ -1,4 +1,5 @@
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebasefetch/details.dart';
 import 'package:firebasefetch/home.dart';
 import 'package:firebasefetch/popular.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const Popular(),
+      home: const Details(),
     );
   }
 }
